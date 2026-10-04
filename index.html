@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f5f2eb">
+<title>与神对话 · 核心修习</title>
+<style>
+:root{--bg:#f5f2eb;--paper:#fffefa;--ink:#262c28;--muted:#777d75;--green:#426a53;--green2:#eaf0e9;--gold:#d7a45d;--line:#e7e3d8;--blue:#eaf0f2;--shadow:0 16px 45px #2935280b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 76% 0%,#ecefe5 0,transparent 35%),var(--bg);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft Yahei",sans-serif}button,textarea{font:inherit}button{cursor:pointer;color:inherit}.shell{max-width:1180px;margin:auto;padding:0 26px}.top{height:70px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:10px;font-weight:750;letter-spacing:.03em}.logo{width:34px;height:34px;border-radius:50% 50% 42% 50%;display:grid;place-items:center;background:#426a53;color:white;font-size:18px;box-shadow:0 4px 12px #426a5330}.points{border:1px solid #eadfc9;background:#fffaf0;padding:7px 12px;border-radius:99px;color:#805e27;font-size:13px;font-weight:650}.hero{padding:36px 0 26px;display:flex;align-items:end;justify-content:space-between;gap:20px}.eyebrow{font-size:11px;color:var(--green);font-weight:750;letter-spacing:.14em;text-transform:uppercase}.hero h1{font-family:Georgia,"Noto Serif SC","Songti SC",serif;font-size:clamp(25px,4vw,39px);line-height:1.3;font-weight:500;margin:6px 0 8px;letter-spacing:.015em}.hero p{max-width:650px;color:var(--muted);font-size:14px;margin:0}.daily{flex:0 0 auto;border:1px solid var(--line);border-radius:12px;background:#ffffffa8;padding:12px 15px;font-size:12px;color:var(--muted)}.daily strong{display:block;color:var(--ink);font-size:14px}.layout{display:grid;grid-template-columns:270px minmax(0,1fr);gap:24px;align-items:start;padding-bottom:50px}.sidebar{position:sticky;top:16px}.mapbox,.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}.mapbox{padding:17px 15px}.maphead{display:flex;justify-content:space-between;align-items:center;margin:0 3px 5px}.maphead h2{font-size:13px;margin:0;font-weight:750}.small{color:#999d93;font-size:11px}.volume{padding:11px 3px 9px;border-top:1px solid #f0eee8;margin-top:8px}.voltitle{display:flex;gap:8px;align-items:center;font-size:12px;font-weight:700;margin-bottom:7px}.voltitle em{font-style:normal;color:#91968d;font-size:10px;font-weight:500}.nodes{display:flex;gap:6px}.node{border:1px solid #e7e7df;background:#fff;border-radius:9px;width:34px;height:34px;font-size:11px;color:#797f75;position:relative}.node.done{background:var(--green2);border-color:#d7e2d6;color:var(--green);font-weight:800}.node.active{outline:2px solid #d8ac6d;outline-offset:1px;color:#795b2d;font-weight:800}.legend{display:flex;align-items:center;gap:6px;margin:12px 2px 0;font-size:10px;color:#969a91}.dot{width:7px;height:7px;border-radius:50%;background:#d7a45d}.progressbox{padding:14px 3px 2px}.progressline{height:6px;background:#efeee8;border-radius:99px;overflow:hidden;margin:7px 0}.progressline i{display:block;width:0;height:100%;background:linear-gradient(90deg,#71977a,#d9b26f);border-radius:99px;transition:width .35s}.progresscopy{display:flex;justify-content:space-between;font-size:11px;color:#888e84}.streakline{margin-top:12px;border-radius:11px;background:#f5f6ef;padding:10px;font-size:11px;line-height:1.5;color:#6e786c}.main{min-width:0}.card{overflow:hidden}.cardtop{padding:20px 25px 17px;border-bottom:1px solid #efede5;display:flex;align-items:center;justify-content:space-between;gap:10px}.tag{font-size:11px;color:var(--green);background:var(--green2);padding:5px 9px;border-radius:99px;font-weight:700}.levelno{font-size:11px;color:#92978d}.content{padding:25px 30px 30px}.content h2{font-family:Georgia,"Noto Serif SC","Songti SC",serif;font-size:clamp(23px,3vw,31px);line-height:1.45;font-weight:500;margin:0 0 17px}.label{display:block;font-size:10px;color:#989e93;letter-spacing:.12em;font-weight:800;margin:20px 0 6px}.core{font-size:16px;line-height:1.9;margin:0;padding:15px 17px;background:#f7f7f1;border-left:3px solid #8ea18b;border-radius:0 11px 11px 0}.scenario{padding:15px 17px;background:#f5f7f7;border:1px solid #e9edeb;border-radius:12px}.scenario p{margin:0 0 10px;font-size:14px}.choices{display:flex;gap:8px;flex-wrap:wrap}.choice{border:1px solid #dfe5e2;border-radius:9px;background:white;padding:8px 11px;font-size:12px;text-align:left}.choice:hover,.choice.selected{border-color:#78917e;background:#eef4ef}.feedback{min-height:0;margin-top:9px;color:#496550;font-size:12px;line-height:1.6}.feedback:empty{display:none}.think{border-left:2px solid #d8aa69;padding-left:13px;font-family:Georgia,"Noto Serif SC","Songti SC",serif;font-size:17px;line-height:1.7}.action{display:flex;gap:12px;align-items:flex-start;border:1px solid #e9e2d2;background:#fffaf1;border-radius:12px;padding:13px 15px}.action .spark{font-size:18px}.action p{margin:0;font-size:13px;line-height:1.65}.writehead{display:flex;justify-content:space-between;align-items:center}.saved{font-size:10px;color:#8c9889}.journal{width:100%;min-height:76px;resize:vertical;border:1px solid var(--line);background:#fff;border-radius:11px;padding:11px 13px;color:var(--ink);line-height:1.6;outline:none}.journal:focus{border-color:#9bad98;box-shadow:0 0 0 3px #eaf0e9}.buttons{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:16px}.primary{border:0;border-radius:10px;background:var(--green);color:white;font-weight:700;padding:11px 17px;box-shadow:0 5px 14px #426a5324}.primary:hover{background:#355943;transform:translateY(-1px)}.secondary{background:none;border:0;color:#727a71;font-size:12px;padding:9px}.toast{min-height:21px;margin-top:9px;color:#58745d;font-size:12px}.footnote{margin:13px 2px 0;color:#93978e;font-size:11px;line-height:1.7}.finish{display:none;margin-top:18px;padding:20px;background:#eef3ec;border:1px solid #dbe7d8;border-radius:15px}.finish h3{font-family:Georgia,"Noto Serif SC","Songti SC",serif;font-size:22px;font-weight:500;margin:0 0 5px}.finish p{color:#667368;font-size:13px;margin:0 0 12px}.finish textarea{min-height:88px}.booklink{display:inline-flex;margin-top:14px;color:var(--green);font-size:12px;text-decoration:none;border-bottom:1px solid #9caf9e;padding-bottom:2px}.booklink:hover{color:#253e2f}.footer{border-top:1px solid var(--line);padding:17px 0 26px;font-size:11px;color:#94988e;display:flex;justify-content:space-between;gap:15px}.modalmark{color:#bc8a3f;font-weight:800}.mobilemap{display:none}
+@media(max-width:780px){.shell{padding:0 15px}.top{height:61px}.hero{padding:26px 0 18px;display:block}.daily{display:inline-block;margin-top:13px;padding:8px 12px}.layout{grid-template-columns:1fr;gap:13px}.sidebar{position:static;order:2}.main{order:1}.mapbox{padding:13px 12px}.volume{padding:9px 2px 7px}.nodes{gap:8px}.node{width:36px;height:34px}.content{padding:19px 17px 22px}.cardtop{padding:15px 17px}.core{font-size:15px}.think{font-size:16px}.footer{display:block}.footer span{display:block;margin-top:4px}.buttons{align-items:stretch}.primary{flex:1}.daily{font-size:11px}.mapbox{box-shadow:none}.footnote{font-size:10px}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="top">
+  <div class="brand"><span class="logo">阅</span><span>阅伴 · 与神对话</span></div>
+  <div class="points" aria-live="polite">✦ <span id="stars">0</span> 星</div>
+</header>
+<section class="hero">
+  <div>
+    <div class="eyebrow">15 个短关卡 · 五卷主线</div>
+    <h1>读一个观点，带一个改变回生活。</h1>
+    <p>每关约 2 分钟：读书中视角、做一次情境选择、回答一个问题，再试一个小行动。观点可以验证、修正，也可以不同意。</p>
+  </div>
+  <div class="daily"><strong>今日任务：一关就够</strong>没有断签惩罚，按你的节奏继续。</div>
+</section>
+<div class="layout">
+  <aside class="sidebar">
+    <section class="mapbox" aria-label="五卷任务地图">
+      <div class="maphead"><h2>旅程地图</h2><span class="small">点关卡可重温</span></div>
+      <div id="map"></div>
+      <div class="progressbox">
+        <div class="progresscopy"><span id="progressText">主线进度</span><span id="progressPct">0%</span></div>
+        <div class="progressline"><i id="progressBar"></i></div>
+        <div class="progresscopy"><span id="badge">待领取第一枚徽章</span><span id="doneCount">0 / 15</span></div>
+      </div>
+      <div class="streakline">🌱 进度和手记保存在这台设备的当前浏览器；不会自动同步到其他手机或浏览器。</div>
+    </section>
+  </aside>
+  <main class="main">
+    <article class="card" aria-live="polite">
+      <div class="cardtop"><span class="tag" id="volumeTag"></span><span class="levelno" id="levelNo"></span></div>
+      <div class="content">
+        <h2 id="title"></h2>
+        <span class="label">书中观点 · 用自己的话重述</span>
+        <p class="core" id="core"></p>
+        <span class="label">情境选择 · 没有标准答案</span>
+        <div class="scenario">
+          <p id="scene"></p>
+          <div class="choices" id="choices"></div>
+          <div class="feedback" id="feedback" aria-live="polite"></div>
+        </div>
+        <span class="label">停一下，想一想</span>
+        <div class="think" id="question"></div>
+        <span class="label">现实行动 · 今天试一次</span>
+        <div class="action"><span class="spark">✧</span><p id="action"></p></div>
+        <span class="label writehead"><span>记下你的发现（可选）</span><span class="saved" id="savedLabel">自动保存在本机</span></span>
+        <textarea class="journal" id="note" maxlength="800" placeholder="一句话也可以：我注意到…… / 我准备试试……"></textarea>
+        <div class="buttons">
+          <button class="secondary" id="prevBtn" type="button">← 上一关</button>
+          <button class="primary" id="completeBtn" type="button">完成本关 · +10 星</button>
+          <button class="secondary" id="nextBtn" type="button">下一关 →</button>
+        </div>
+        <div class="toast" id="toast" aria-live="polite"></div>
+        <p class="footnote">这里是对全五卷主题的简短原创概括，不是原文摘录，也不要求把书中灵性观点当成科学结论。把它当成一组问题，用自己的经验和证据检验。</p>
+        <a class="booklink" href="./reading-assistant-conversations.html">想查原书时，再打开全文阅读页 →</a>
+      </div>
+    </article>
+    <section class="finish" id="finish">
+      <h3>主线通关 · 把理解变成自己的选择</h3>
+      <p>回看手记，挑一条真正帮到你的想法，也写下你仍保留的疑问。好的阅读允许你检验和修正。</p>
+      <span class="label">接下来 7 天，我想实践的一个行为是</span>
+      <textarea class="journal" id="review" maxlength="800" placeholder="我会在……的时候，先……；一周后再看看效果。"></textarea>
+    </section>
+  </main>
+</div>
+<footer class="footer"><span>阅伴 · 用阅读练习选择，不替你替生活下结论。</span><span>随时重温，不必赶进度。</span></footer>
+</div>
+<script>
+const volumes=[
+ {name:"与神对话 · 第一卷",short:"第一卷",start:0,end:3,icon:"一"},
+ {name:"与神对话 · 第二卷",short:"第二卷",start:3,end:6,icon:"二"},
+ {name:"与神对话 · 第三卷",short:"第三卷",start:6,end:9,icon:"三"},
+ {name:"与神为友",short:"与神为友",start:9,end:12,icon:"友"},
+ {name:"与神合一",short:"与神合一",start:12,end:15,icon:"合"}
+];
+const levels=[
+ {volume:0,title:"你相信的东西，怎样塑造选择？",core:"本卷把人生看作一连串选择：信念影响你怎样解释处境，解释再影响行动。先检查信念，别急着怪自己。",scene:"你想报名一个新课程，脑中冒出“我肯定学不会”。",choices:[["先放弃","这能暂时避开挫败感；也可以先查清时间、费用和入门要求，再决定。"],["先查事实","把担心拆成可核实的信息，再决定是否尝试。"],["问问别人","听经验有帮助；把别人的经历当参考，最后再按自己的条件判断。"]],question:"最近一次让你退缩的念头是什么？这是事实，还是你沿用很久的解释？",action:"写下一个担忧、可核实的事实，以及一种更宽的解释。"},
+ {volume:0,title:"你想成为什么样的人？",core:"与其只盯着拿到什么，不如问：我正在用什么选择塑造自己？把身份放进今天的小行为里。",scene:"你答应自己早睡，却又刷手机到很晚。",choices:[["责备自己","责备可能让人更疲惫；看看环境里哪个环节能先变简单。"],["把手机放远","改变触手可及的环境，往往比只靠意志更可执行。"],["先定一个小目标","先提前 10 分钟放下手机，比要求自己立刻完美更容易坚持。"]],question:"今天哪个选择会让你更接近自己珍惜的品质？",action:"挑一个小动作兑现它：守时、坦诚、专注，任选一项。"},
+ {volume:0,title:"关系里，先说清需要",core:"书中把关系当作认识与表达自我的场域。照顾他人不等于抹掉自己，需求也可以诚实表达。",scene:"家人问你“怎么了”，你其实因为一件小事不舒服。",choices:[["说“没事”","暂时避开冲突，却可能让对方猜测；想好后可以补充说明。"],["直接责怪","情绪是真实的；若先说具体感受和需求，更容易被听见。"],["说出感受和需要","清楚表达不等于要求对方立刻同意，也给了沟通一个起点。"]],question:"你希望别人猜到、但还没说出口的是什么？",action:"用“我感到……我需要……我愿意……”表达一次。"},
+ {volume:1,title:"恐惧不是事实",core:"书中常用恐惧与爱来对照两种行动方向。恐惧可以提醒风险，却不必替你决定；把风险和选择分开。",scene:"你收到一个新机会，既期待又担心失败。",choices:[["马上拒绝","拒绝也可能是合适选择；先确认拒绝是基于现实限制还是单纯害怕。"],["什么都不准备就答应","勇气不等于忽略后果；把未知列出来，逐项确认。"],["列风险和准备","先看清风险，再决定是否值得承担。"]],question:"这件事里真正要防的风险是什么？能做什么现实准备？",action:"列出一个风险和一个具体防护，再选下一步。"},
+ {volume:1,title:"把“够不够”问具体",core:"匮乏感容易把注意力锁在失去上。借书中的丰盛观做练习：不否认限制，也看见已经拥有的资源。",scene:"你想开始一个计划，但觉得自己时间、钱和精力都不够。",choices:[["等条件完美","等待可能有道理；也可以先确认哪项条件真的不可缺。"],["硬扛到底","投入很重要，规划休息和预算也同样重要。"],["盘点资源后缩小计划","看见已有资源，再把第一步缩小到负担得起。"]],question:"你是缺一项具体资源，还是被“永远不够”困住？",action:"写下已有的两项资源，再找一个实际可用的支持。"},
+ {volume:1,title:"个人选择会进入共同生活",core:"第二卷把镜头移向群体：制度、教育和社会习惯也由许多选择组成。只责怪个人不够，改变需要行动与协作。",scene:"团队总把临时任务丢给同一个人，大家都觉得不公平。",choices:[["私下抱怨","抱怨能提醒问题存在；要改变惯例，还需要提出可讨论的办法。"],["自己全接下来","短期可以救急，但长期容易固化不公平。"],["提出轮值试行","把问题和一个小方案放在一起，邀请团队试一周。"]],question:"你所在的团队或家庭，哪条惯例让人更难做出你们都认同的选择？",action:"提出一个小改动，并邀请相关的人一起试一周。"},
+ {volume:2,title:"放大视角，不等于放弃证据",core:"第三卷把问题放到更大的宇宙视角。把它当作拓宽视野的邀请，同时区分亲身体验、信念和可验证事实。",scene:"你看到一条很吸引人的灵性或健康说法，想马上转发。",choices:[["直接转发","新想法值得关注；先检查来源和证据，避免把猜测当事实。"],["立刻嘲笑","怀疑有价值；也可以先问清它具体主张什么。"],["标注来源再核实","保持好奇和求证，可以同时存在。"]],question:"这个想法哪些部分来自亲身体验，哪些部分需要证据？",action:"为一个重要判断标上“事实、解释、信念”三类。"},
+ {volume:2,title:"把失败变成反馈",core:"这套思想关注意识与成长。落到现实里，可以把挫折拆成可观察的过程，而不是给整个人贴标签。",scene:"你准备很久的汇报效果不理想。",choices:[["认定自己不行","一次结果不能概括全部能力；拆开流程会更有帮助。"],["怪听众不懂","环境因素可能存在，也可以复盘自己能调整的部分。"],["找一个环节复盘","记下有效部分和一个可调整点，下次验证。"]],question:"这次不顺，哪一步出了问题？哪一步其实有效？",action:"选一处小调整，在下一次重复时验证。"},
+ {volume:2,title:"选择长远的回应",core:"当下反应未必等于你真正重视的东西。暂停一下，才能从自动反应回到有意识的选择。",scene:"有人发来一条让你生气的消息，你很想马上回击。",choices:[["立刻反击","先表达愤怒可能很痛快；等情绪降下来再看是否符合你的目标。"],["完全不回应","沉默可以争取空间；之后仍可决定是否需要说明边界。"],["先暂停再回复","暂停不是认输，而是给自己选择回应方式的时间。"]],question:"下次遇到冲突，你想让什么价值带着自己行动？",action:"提前写一句暂停语：“我想想再答。”下次用一次。"},
+ {volume:3,title:"友谊从诚实开始",core:"《与神为友》把亲近理解为持续的信任与交流。应用在人际关系里，亲密来自诚实，也需要边界。",scene:"朋友借钱给你的压力超出承受范围。",choices:[["勉强答应","帮助别人是选择；也要看清自己能承担的范围。"],["直接拉黑","拒绝是你的权利；清楚表达通常也能减少误会。"],["说明边界和能帮的部分","诚实说出限制，再决定是否有其他合适支持。"]],question:"你在某段关系里最想坦白什么？怎样表达既真实又尊重？",action:"挑一件小事，用不指责的方式说出真实感受。"},
+ {volume:3,title:"倾听内心，也核对现实",core:"把内在感受当作线索，而不是自动当作命令。成熟的选择要同时照看价值、事实和后果。",scene:"你想辞掉工作，但手上还没有下一步安排。",choices:[["马上离职","离开可能是必要的；先确认安全、收入和可选路径。"],["无论如何都忍住","稳定值得考虑；也要认真看见持续消耗。"],["列价值、证据和代价","让感受被听见，也让决定建立在信息和可承受后果上。"]],question:"你想做的事符合价值吗？事实支持吗？代价承担得起吗？",action:"对一项真实决定分别写下价值、证据和代价。"},
+ {volume:3,title:"陪伴不是替人作答",core:"友谊的实践不是控制对方，而是让彼此更能成为自己。支持可以包括倾听、边界与实际帮助。",scene:"朋友向你诉苦，你已经想好该怎么解决。",choices:[["马上给建议","建议可能有用；先确认对方现在需要什么。"],["只说“别想太多”","安慰出于好意；具体倾听通常更能让人感到被理解。"],["先问想要倾听还是建议","把选择还给对方，再决定怎样陪伴。"]],question:"你最近是在倾听，还是急着替对方解决？",action:"先问对方：“你想让我听听，还是一起想办法？”"},
+ {volume:4,title:"看见共同点，减少对立",core:"《与神合一》提出彼此相连的视角。即便你不接受它的形而上解释，也可以用共同点减少轻率的敌意。",scene:"网上有人强烈反对你的观点，你想给对方贴标签。",choices:[["讽刺对方","讽刺能宣泄情绪，却通常会让讨论更难继续。"],["马上认同对方","理解不等于同意；保留分歧也可以尊重彼此。"],["先复述对方在意什么","准确听懂对方的担忧，再解释你不同意哪里。"]],question:"和你意见相左的人，可能在保护什么需要？",action:"先复述对方最关心的一点，再讲自己的分歧。"},
+ {volume:4,title:"安静给选择留空间",core:"静下来不等于逃避问题，而是给情绪降速，好分辨真实需求与冲动。",scene:"重要谈话前你很紧张，脑中不断预演最坏结果。",choices:[["一直刷手机分心","转移注意力能暂时缓解；也可以留一点时间整理真正担心的事。"],["逼自己别紧张","情绪不一定听命令；先观察它，通常更容易采取下一步。"],["呼吸后写一个可控动作","安定身体，再把注意力放回能做的事情。"]],question:"你现在最强烈的情绪是什么？身体哪儿能感觉到？",action:"暂停 60 秒，慢慢呼吸，然后写下一个可控的小动作。"},
+ {volume:4,title:"让理念接受生活检验",core:"最后留下的不是记住多少观点，而是观察它们是否让你更诚实、更负责、更有同理心。你可以保留疑问。",scene:"读完一本书后，你发现有些话很受触动，有些话无法认同。",choices:[["全部照单全收","被触动很珍贵；重要主张仍可以结合证据和经验检验。"],["全部丢掉","有分歧不代表一无所获；挑出可验证的小部分即可。"],["选一条试一周","用实际行为看结果，同时记录仍然不确定的地方。"]],question:"哪一条观点真正改变了你的行为？哪一条仍需要检验？",action:"选一个未来七天愿意实践的行为，定一个回顾日期。"}
+];
+const KEY="yueban-conversations-core-v1";
+let saved;
+try{saved=JSON.parse(localStorage.getItem(KEY))||{};}catch(e){saved={};}
+if(!Array.isArray(saved.done))saved.done=[];
+if(!saved.notes||typeof saved.notes!=="object")saved.notes={};
+if(typeof saved.review!=="string")saved.review="";
+let current=0;
+const map=document.getElementById("map");
+const volTag=document.getElementById("volumeTag");
+const levelNo=document.getElementById("levelNo");
+const title=document.getElementById("title");
+const core=document.getElementById("core");
+const scene=document.getElementById("scene");
+const choices=document.getElementById("choices");
+const feedback=document.getElementById("feedback");
+const question=document.getElementById("question");
+const action=document.getElementById("action");
+const note=document.getElementById("note");
+const toast=document.getElementById("toast");
+const completeBtn=document.getElementById("completeBtn");
+const finish=document.getElementById("finish");
+const review=document.getElementById("review");
+function store(){try{localStorage.setItem(KEY,JSON.stringify(saved));}catch(e){document.getElementById("savedLabel").textContent="本机存储不可用";}}
+function renderMap(){
+ let out="";
+ volumes.forEach(function(v,vi){
+  out+='<section class="volume"><div class="voltitle"><span>'+v.icon+'</span><span>'+v.name+'</span><em>'+Math.max(0,saved.done.filter(function(i){return i>=v.start&&i<v.end;}).length)+' / 3</em></div><div class="nodes">';
+  for(let i=v.start;i<v.end;i++){
+   const isDone=saved.done.indexOf(i)>=0;
+   out+='<button type="button" class="node '+(isDone?"done ":"")+(current===i?"active":"")+'" aria-label="第'+(i+1)+'关'+(isDone?"，已完成":"")+'" aria-pressed="'+(current===i)+'" data-index="'+i+'">'+(isDone?"✓":(i+1))+'</button>';
+  }
+  out+='</div></section>';
+ });
+ map.innerHTML=out;
+ map.querySelectorAll(".node").forEach(function(btn){btn.addEventListener("click",function(){render(Number(btn.dataset.index));});});
+}
+function renderProgress(){
+ const n=saved.done.length;
+ const pct=Math.round(n/levels.length*100);
+ document.getElementById("stars").textContent=n*10;
+ document.getElementById("progressPct").textContent=pct+"%";
+ document.getElementById("progressBar").style.width=pct+"%";
+ document.getElementById("doneCount").textContent=n+" / "+levels.length;
+ const badges=["待领取第一枚徽章","信念侦探","选择实践者","对话同行","关系修复者","整合行动者"];
+ const badgeIndex=n===0?0:Math.min(5,Math.ceil(n/3));
+ document.getElementById("badge").textContent=n===15?"✦ 五卷通关 · 整合行动者":(n>0?"✦ "+badges[badgeIndex]:"待领取第一枚徽章");
+ finish.style.display=n===15?"block":"none";
+ review.value=saved.review||"";
+}
+function render(index){
+ current=Math.max(0,Math.min(levels.length-1,index));
+ const item=levels[current];
+ volTag.textContent=volumes[item.volume].name;
+ levelNo.textContent="关卡 "+String(current+1).padStart(2,"0")+" / 15";
+ title.textContent=item.title;
+ core.textContent=item.core;
+ scene.textContent=item.scene;
+ question.textContent=item.question;
+ action.textContent=item.action;
+ feedback.textContent="";
+ choices.innerHTML=item.choices.map(function(c,i){return '<button type="button" class="choice" data-choice="'+i+'">'+c[0]+'</button>';}).join("");
+ choices.querySelectorAll(".choice").forEach(function(btn){btn.addEventListener("click",function(){
+  choices.querySelectorAll(".choice").forEach(function(b){b.classList.remove("selected");});
+  btn.classList.add("selected");
+  feedback.textContent=item.choices[Number(btn.dataset.choice)][1];
+ });});
+ note.value=saved.notes[current]||"";
+ toast.textContent="";
+ const isDone=saved.done.indexOf(current)>=0;
+ completeBtn.textContent=isDone?(saved.done.length===levels.length?"主线已通关":"本关已完成 · 继续下一关"):"完成本关 · +10 星";
+ document.getElementById("prevBtn").disabled=current===0;
+ document.getElementById("nextBtn").disabled=current===levels.length-1;
+ renderMap();renderProgress();
+}
+note.addEventListener("input",function(){
+ saved.notes[current]=note.value;store();
+ const label=document.getElementById("savedLabel");
+ label.textContent="已保存在本机";label.style.color="#71886f";
+});
+review.addEventListener("input",function(){saved.review=review.value;store();});
+document.getElementById("prevBtn").addEventListener("click",function(){render(current-1);});
+document.getElementById("nextBtn").addEventListener("click",function(){render(current+1);});
+completeBtn.addEventListener("click",function(){
+ if(saved.done.indexOf(current)<0){
+  saved.done.push(current);saved.done.sort(function(a,b){return a-b;});store();render(current);
+  toast.textContent=saved.done.length===levels.length?"主线完成！写下你准备实践的一件事。":"本关完成，获得 10 星。先停下来消化，再继续下一关。";
+ }else{
+  const next=levels.findIndex(function(_,i){return saved.done.indexOf(i)<0;});
+  if(next<0){toast.textContent="五卷主线已经通关，随时可以重温任意关卡。";renderProgress();}
+  else render(next);
+ }
+});
+render(0);
+</script>
+</body>
+</html>
